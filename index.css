@@ -1,20 +1,94 @@
-@import "variables.css";
+@import "variable.css";
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/* HEADER KISMI */
+body{
+ color: white;
+   
+}
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
-    background-color: var(--bg);
-    border-bottom: 4px solid var(--clarusway)
+    background-color: #4f4f4f;
+    padding: 15px 0;
+    border-bottom: 4px solid #a62440;
+}
+span{
+    color: #a62440 ;
+}
+header div h2{
+    margin-left: 10px;
+}
+ul a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+/* Main ksımı */
+.img{
+    background-image: url(./img/showcase.jpg);
+     height: 320px;
+     background-size: cover;
+     background-position: center;
+     text-align: center;  
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.img h1{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+/* ? article kısmı  */
+
+
+.article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4f4f4f;
+    padding: 20px;
+}
+.article p{
+    font-weight: 800;
+    font-size: 20px;
+}
+input{
+    padding: 0.5rem;
 }
 
-span{
-    color: var(--clarusway);
+button{
+    background-color: orangered;
+    color: white;
+    /* height: 3rem; */
+    padding: 0.5rem;
+    /* line-height: 30px; */
+}
+/* *footer kısmı */
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    margin: 20px;
+    color: black;
+    font-size: 14px;
+
+}
+.section img{
+    width: 18%;
+}
+
+/* **footer kısmı */
+footer{
+    background-color: #4f4f4f;
+    padding: 30px;
+    text-align: center;  
 }
