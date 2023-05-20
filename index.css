@@ -24,7 +24,7 @@ span{
 header div h2{
     margin-left: 10px;
 }
-ul a {
+div a {
     color: white;
     font-size: 18px;
     text-decoration: none;
@@ -91,4 +91,28 @@ footer{
     background-color: #4f4f4f;
     padding: 30px;
     text-align: center;  
+}
+
+.section{
+    display: flex;
+    gap: 1rem;
+    font-size: 14px;
+    text-align: center;
+    margin: 1.2rem;
+}
+
+.section img{
+    width: 20%;
+}
+
+.footer{
+    text-align: center;
+    background-color: var(--bg);
+    padding: 2rem;
+    color: white;
+}
+
+.footer img{
+    width: 20%;
+
 }
